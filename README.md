@@ -8,11 +8,21 @@ Architect and engineer with 20+ years in identity platforms and multi-tenant sys
 
 I've spent most of my career on identity and enterprise platforms. At Oracle that meant orchestration engines, metering services and multi-tenant architecture, and later at Avalara it meant workflow platforms. Three of those designs became US patents.
 
+Most of what I design is multi-tenant, event-driven and distributed. I treat architecture documents as a working practice, not a deliverable. At Avalara, one of mine was the first AI-generated architecture document its review board approved.
+
 Most of my work now happens with Claude Code. I consult independently and build client services in Java and TypeScript with Claude Code as part of the team. On the side I build open source tooling around it: agents that talk across machines, a profiler for what a session spends, and a container image for running it headless. I write about what I learn at [vikrantjain.dev](https://vikrantjain.dev).
 
 ---
 
 ## Tech Stack
+
+**Architecture & Design**
+
+![Multi-tenant Architecture](https://img.shields.io/badge/Multi--tenant_Architecture-2962FF?style=flat)
+![Event-Driven Architecture](https://img.shields.io/badge/Event--Driven_Architecture-2962FF?style=flat)
+![Distributed Systems](https://img.shields.io/badge/Distributed_Systems-2962FF?style=flat)
+![Microservices](https://img.shields.io/badge/Microservices-2962FF?style=flat)
+![AI-Assisted Architecture](https://img.shields.io/badge/AI--Assisted_Architecture-2962FF?style=flat)
 
 **AI & Agentic**
 
@@ -20,7 +30,6 @@ Most of my work now happens with Claude Code. I consult independently and build 
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF5A50?style=flat&logo=crewai&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white)
 
 **Languages**
 
@@ -39,7 +48,6 @@ Most of my work now happens with Claude Code. I consult independently and build 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white)
 
 **Workflow & Identity**
 
@@ -54,7 +62,6 @@ Most of my work now happens with Claude Code. I consult independently and build 
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat&logo=clickhouse&logoColor=black)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
 ---
 
