@@ -72,7 +72,7 @@ Currently consulting independently, building open source tooling around MCP serv
 
 ### [profile-builder](https://github.com/vikrantjain/profile-builder)
 
-A Claude Code plugin for managing professional profiles with AI. Collects data from multiple sources, generates a structured profile document, and exports platform-ready content for LinkedIn, GitHub, Hashnode, and tailored resumes.
+A Claude Code plugin for managing professional profiles with AI. Collects data from multiple sources, generates a structured profile document, and exports platform-ready content for LinkedIn, GitHub, and tailored resumes.
 
 - Built as a full plugin with skills for initialization, section management, validation, and multi-platform export
 - Demonstrates practical AI-augmented tooling — using Claude Code's plugin system to solve a real workflow problem
