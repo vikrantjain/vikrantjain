@@ -60,16 +60,26 @@ Most of my work now happens with Claude Code. I consult independently and build 
 
 ## Featured Projects
 
-### [claude-code-chat](https://github.com/vikrantjain/claude-code-chat)
+### [intent](https://github.com/vikrantjain/intent)
 
-Distributed Claude Code agents that collaborate in real time via MCP channels and a WebSocket broker.
+Claude Code plugin that reviews how you brief the agent, and captures the agreed problem as a short intent.md.
 
-- Write-up: [I Built a Way for Claude Code Agents to Talk to Each Other Across Machines](https://vikrantjain.dev/distributed-claude-code-agents-across-machines/)
+- Write-up: [Your AI Agent Will Carry Out a Weak Plan Very Well](https://vikrantjain.dev/collaborate-with-your-ai-agent/)
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
+
+### [claude-chat](https://github.com/vikrantjain/claude-chat)
+
+Real-time chat between distributed Claude Code instances via a shared WebSocket broker, built on the experimental Channels API.
+
+- Write-up: [I Ran Three Claude Code Agents as Three Teams — and They Shipped a Real Feature](https://vikrantjain.dev/three-claude-code-instances-one-feature/)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat)
 
 ### [claude-session-profiler](https://github.com/vikrantjain/claude-session-profiler)
 
@@ -82,26 +92,30 @@ Claude Code plugin to profile and analyze session telemetry from ClickHouse: tok
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-### [profile-builder](https://github.com/vikrantjain/profile-builder)
+### [claude-code-monitoring](https://github.com/vikrantjain/claude-code-monitoring)
 
-A Claude Code plugin for managing professional profiles with AI. It collects data from multiple sources, builds a structured profile, and exports platform-ready content for LinkedIn, GitHub, and tailored resumes.
+OpenTelemetry monitoring stack for Claude Code, with ClickHouse and the HyperDX UI.
 
+- Write-up: [I Cut My AI Coding Agent's Cost by 60% — By Watching What It Actually Does](https://vikrantjain.dev/profiling-claude-code-sessions-cut-cost-60-percent/)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat&logo=clickhouse&logoColor=black)
+![HyperDX](https://img.shields.io/badge/HyperDX-3C3C3C?style=flat)
+
+### [claude-code-container](https://github.com/vikrantjain/claude-code-container)
+
+Pre-built container image for running Claude Code CLI in Docker, Podman, or any OCI-compatible runtime. Includes Bun, a non-root user, and pre-configured onboarding bypass for headless and CI use.
+
+- Write-up: [I Cut My AI Coding Agent's Cost by 60% — By Watching What It Actually Does](https://vikrantjain.dev/profiling-claude-code-sessions-cut-cost-60-percent/)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=claude&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat)
-
-### [mcp-high-availability](https://github.com/vikrantjain/mcp-high-availability)
-
-High availability setup for stateful MCP servers using HAProxy sticky sessions, Redis-backed state, and automatic failover.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white)
 
 ### More projects
 
-- **[claude-code-monitoring](https://github.com/vikrantjain/claude-code-monitoring)** — OpenTelemetry monitoring stack for Claude Code, with ClickHouse and the HyperDX UI. `Docker` `OpenTelemetry` `ClickHouse`
-- **[claude-code-container](https://github.com/vikrantjain/claude-code-container)** — Pre-built image for running the Claude Code CLI in Docker, Podman, or any OCI runtime, set up for headless and CI use. `Docker` `Bun`
+- **[teamwork](https://github.com/vikrantjain/teamwork)** — Run several Claude Code sessions as a team on one goal, each with a lane it owns and a boundary it may not cross. `Python` `Claude Code`
 - **[mcp-oauth-proxy-demo](https://github.com/vikrantjain/mcp-oauth-proxy-demo)** — FastMCP server showing the OAuth Proxy pattern for Keycloak without Dynamic Client Registration. `Python` `Keycloak`
 
 ---
